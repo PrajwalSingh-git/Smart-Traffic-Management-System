@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { viteSourceLocator } from "@metagptx/vite-plugin-source-locator";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [
     viteSourceLocator({
@@ -11,7 +10,9 @@ export default defineConfig(({ mode }) => ({
     }),
     react(),
   ],
-  base: "/Smart-Traffic-Management-System",
+
+  base: "/Smart-Traffic-Management-System/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
