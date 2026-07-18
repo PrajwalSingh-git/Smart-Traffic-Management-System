@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     react(),
   ],
 
-  base: "/Smart-Traffic-Management-System/",
+
 
   resolve: {
     alias: {

@@ -1,15 +1,12 @@
 {
   "name": "shadcnui",
-  "homepage": "https://prajwalsingh-git.github.io/Smart-Traffic-Management-System/",
   "type": "module",
   "packageManager": "pnpm@8.10.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint --quiet ./src",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
